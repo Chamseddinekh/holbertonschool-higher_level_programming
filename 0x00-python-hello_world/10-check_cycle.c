@@ -16,9 +16,8 @@ head = list;
 while (head->next && list)
 {
 head = head->next;
-}
-if (head == NULL)
+if (head->next == list->next)
 return (1);
-
+}
 return (0);
 }
