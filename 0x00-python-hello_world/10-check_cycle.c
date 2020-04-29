@@ -19,7 +19,9 @@ while (head->next && head && tmp)
 head = head->next;
 tmp = tmp->next->next;
 if (head == tmp)
+{
 return (1);
+}
 }
 return (0);
 }
