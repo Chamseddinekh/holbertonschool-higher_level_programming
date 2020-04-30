@@ -6,5 +6,4 @@ if __name__ == "__main__":
     length = len(sys.argv)
     for i in range(i, length):
         sum_argv += int(sys.argv[i])
-        i += 1
     print("{}".format(sum_argv))
