@@ -14,7 +14,7 @@ if (list == NULL)
 return (0);
 head = list;
 tmp = list;
-while (tmp->next && tmp)
+while (tmp && tmp->next)
 {
 head = head->next;
 tmp = tmp->next->next;
