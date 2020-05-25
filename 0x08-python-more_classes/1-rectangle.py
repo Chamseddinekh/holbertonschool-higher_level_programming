@@ -6,12 +6,12 @@ class Rectangle that defines a rectangle
 
 class Rectangle:
     def __init__(self, width=0, height=0):
-        self.width = width
-        self.height = height
+        self.__height = height
+        self.__width = width
 
     @property
     def width(self):
-        return self.width
+        return self.__width
 
     @width.setter
     def width(self, value):
@@ -22,7 +22,7 @@ class Rectangle:
 
     @property
     def height(self):
-        return self.height
+        return self.__height
 
     @height.setter
     def height(self, value):
