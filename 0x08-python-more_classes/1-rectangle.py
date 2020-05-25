@@ -5,6 +5,7 @@ class Rectangle that defines a rectangle
 
 
 class Rectangle:
+    """Defines Rectangle Class"""
     def __init__(self, width=0, height=0):
         """
         constructeur
