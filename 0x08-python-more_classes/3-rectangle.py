@@ -62,6 +62,8 @@ class Rectangle:
         print rectangle
         """
         string = ''
+        if self.height == 0 or self.width == 0:
+            return string
         for i in range(self.height):
             for j in range(self.width):
                 string += '#'
