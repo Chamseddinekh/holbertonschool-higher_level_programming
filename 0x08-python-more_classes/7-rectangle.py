@@ -65,15 +65,16 @@ class Rectangle:
         """
         print rectangle
         """
+        string = ''
         if self.height == 0 or self.width == 0:
             return ''
         for i in range(self.height):
             for j in range(self.width):
-                self.print_symbol += '#'
+                string += str(self.print_symbol)
             if i == self.height - 1:
                 break
-            self.print_symbol += '\n'
-        return str(self.print_symbol)
+            string += '\n'
+        return string
 
     def __repr__(self):
         return ("Rectangle({}, {})".format(self.width, self.height))
