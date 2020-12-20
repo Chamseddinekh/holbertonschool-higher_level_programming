@@ -1,3 +1,4 @@
 -- SQL - More queries
-SELECT id, name FROM cities
-WHERE state_id = (SELECT id FROM states WHERE name='California' SORTED BY id);
+SELECT cities.id, cities.name, states.name FROM cities
+INNER JOIN state ON cities.state_id=state.id
+GROUP BY id;
