@@ -8,12 +8,12 @@ Traceback (most recent call last):
 ...
 TypeError: 2 arguments required
 
->>> add_integer(., 8)
+>>> add_integer(NULL, 8)
 Traceback (most recent call last):
 ...
 TypeError: a must be integer
 
->>> add_integer(9, l)
+>>> add_integer(9, NULL)
 Traceback (most recent call last):
 ...
 TypeError: b must be integer
