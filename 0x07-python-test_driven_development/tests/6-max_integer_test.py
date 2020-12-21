@@ -14,5 +14,11 @@ class TestMaxInteger(unittest.TestCase):
     def test_max_end(self):
         self.assertEqual(max_integer([1, 2, 3]), 3)
 
+    def test_max_begin(self):
+        self.assertEqual(max_integer([5, 2, 3]), 5)
+
+    def test_max_middle(self):
+        self.assertEqual(max_integer([1, 9, 3]), 9)
+
 if __name__ == '__main__':
     unittest.main()
