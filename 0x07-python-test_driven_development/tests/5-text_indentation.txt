@@ -1,0 +1,4 @@
+# doctest_5-text_indentation.py
+""" doctest class """
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
