@@ -17,13 +17,3 @@ TypeError: div must be a number
 Traceback (most recent call last):
 ...
 TypeError: division by zero
-
->>> matrix_divided()
-Traceback (most recent call last):
-...
-TypeError: 2 arguments required
-
->>> matrix_divided(([[3, "a"], [6, 2]], 0))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
