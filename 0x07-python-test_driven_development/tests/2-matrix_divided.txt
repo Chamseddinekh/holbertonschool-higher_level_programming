@@ -3,22 +3,12 @@
 
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
->>> matrix_divided([[3, 1], [6, 2]], 0)
-Traceback (most recent call last):
-...
-ZeroDivisionError: division by zero
-
->>> matrix_divided([[3, 1], [6, 2], [6, 2, 9]], 0)
+>>> matrix_divided([[3, 1], [6, 2], [6, 2, 9]], 9)
 Traceback (most recent call last):
 ...
 TypeError: Each row of the matrix must have the same size
 
->>> matrix_divided([[3, 1], [6, 2], [6, 2, 9]], 'z')
+>>> matrix_divided([[3, 1], [6, 2]], 'z')
 Traceback (most recent call last):
 ...
 TypeError: div must be a number
-
->>> matrix_divided([[3, 'd'], [6, 2], [6, 2, 9]], 4)
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
