@@ -24,4 +24,4 @@
 >>> my_list.append(-4)
 >>> my_list.append(-2)
 >>> my_list.append(-3)
-[-4, -2, 3]
+[-4, -2, -3]
