@@ -4,11 +4,6 @@
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 >>> bg = BaseGeometry()
 
->>> bg.integer_validator("my_int", test)
-Traceback (most recent call last):
-...
-TypeError: my_int must be an integer
-
 >>> bg.integer_validator("age", -2)
 Traceback (most recent call last):
 ...
