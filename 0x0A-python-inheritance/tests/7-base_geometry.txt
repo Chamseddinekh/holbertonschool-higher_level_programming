@@ -10,3 +10,8 @@
 Traceback (most recent call last):
 ...
 ValueError: age must be greater than 0
+
+>>> bg.integer_validator("int", 'a')
+Traceback (most recent call last):
+...
+ValueError: int must be integer
