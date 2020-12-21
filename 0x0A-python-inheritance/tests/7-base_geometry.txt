@@ -1,7 +1,7 @@
 # doctest_7-base_geometry.py
 """ doctest class """
 
->>> basegeometry = __import__('7-base_geometry').base_geometry
+>>> basegeometry = __import__('7-base_geometry').basegeometry
 >>> bg = BaseGeometry()
 
 >>> bg.integer_validator("my_int", 'test')
