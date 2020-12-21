@@ -9,11 +9,10 @@ class Rectangle(__import__('7-base_geometry').BaseGeometry):
     class Rectangle that inherits from BaseGeometry
     """
     def __init__(self, width, height):
-        if super().integer_validator('width', width):
-            self.__width = width
-
-        if super().integer_validator('height', height):
-            self.__height = height
+        self.integer_validator("width", width)
+        self.integer_validator("height", height)
+        self.__width = width
+        self.__height = height
 
     def area(self):
         """
@@ -25,4 +24,4 @@ class Rectangle(__import__('7-base_geometry').BaseGeometry):
         """
         Print Area
         """
-        return '[Rectangle] ' + str(self.__width) + '/' + str(self.__height)
+        return "[Rectangle] {}/{}".format(self.__width, self.__height)
