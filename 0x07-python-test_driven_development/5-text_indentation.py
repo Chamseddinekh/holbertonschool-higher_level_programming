@@ -13,4 +13,4 @@ def text_indentation(text):
     text = text.replace(':', ':\n\n')
     text = text.split("\n")
     for i in range(0, len(text)):
-        print("{:s}".format(text[i].strip(), end=""))
+        print("{:s}".format(text[i].strip()))
