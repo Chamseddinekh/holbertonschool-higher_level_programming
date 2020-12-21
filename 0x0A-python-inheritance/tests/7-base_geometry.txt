@@ -2,6 +2,7 @@
 """ doctest class """
 
 >>> base_geometry = __import__('7-base_geometry').base_geometry
+>>> bg = BaseGeometry()
 
 >>> bg.integer_validator("my_int", 'test')
 Traceback (most recent call last):
@@ -12,5 +13,3 @@ TypeError: name must be an integer
 Traceback (most recent call last):
 ...
 TypeError: name must be an integer
-
-
