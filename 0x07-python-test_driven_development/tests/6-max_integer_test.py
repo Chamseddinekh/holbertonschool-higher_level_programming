@@ -21,7 +21,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([-6, 7, 8]), 8)
 
     def test_all_negative(self):
-        self.assertEqual(max_integer([-6, -7, -8]), -8)
+        self.assertEqual(max_integer([-6, -7, -8]), -6)
 
 if __name__ == '__main__':
     unittest.main()
