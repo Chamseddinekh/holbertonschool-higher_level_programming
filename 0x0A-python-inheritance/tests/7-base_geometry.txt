@@ -1,0 +1,4 @@
+# doctest_7-base_geometry.py
+""" doctest class """
+
+>>> base_geometry = __import__('7-base_geometry').base_geometry
