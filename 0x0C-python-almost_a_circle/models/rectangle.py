@@ -19,24 +19,28 @@ class Rectangle(Base):
         self.y = y
         super().__init__(id)
 
+    @property
     def get_width(self):
         return self.__width
 
     def set_width(self, width):
         self.__width = width
 
+    @property
     def get_height(self):
         return self.__height
 
     def set_height(self, height):
         self.__height = height
 
+    @property
     def get_x(self):
         return self.__x
 
     def set_x(self, x):
         self.__x = x
 
+    @property
     def get_y(self):
         return self.__y
 
