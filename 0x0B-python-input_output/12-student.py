@@ -22,6 +22,6 @@ class Student:
             for i in self.__dict__.items():
                 for j in i:
                     if j in attrs:
-                        return {i}
+                        return dict([i])
         else:
             return self.__dict__
