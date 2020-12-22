@@ -10,15 +10,6 @@ class Rectangle(Base):
     """
     class Rectangle that inherits from Base
     """
-    def __init__(self, width, height, x=0, y=0, id=None):
-        """
-        constructor
-        """
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
-        super().__init__(id)
 
     def get_width(self):
         """getter of width"""
@@ -51,3 +42,13 @@ class Rectangle(Base):
     def set_y(self, y):
         """setter of y"""
         self.__y = y
+
+    def __init__(self, width, height, x=0, y=0, id=None):
+        """
+        constructor
+        """
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+        super().__init__(id)
