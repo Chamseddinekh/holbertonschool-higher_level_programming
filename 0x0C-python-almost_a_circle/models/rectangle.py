@@ -20,7 +20,6 @@ class Rectangle(Base):
         self.y = y
         super().__init__(id)
 
-    @property
     def get_width(self):
         """getter of width"""
         return self.__width
@@ -29,7 +28,6 @@ class Rectangle(Base):
         """setter of width"""
         self.__width = width
 
-    @property
     def get_height(self):
         """getter of height"""
         return self.__height
@@ -38,7 +36,6 @@ class Rectangle(Base):
         """setter of height"""
         self.__height = height
 
-    @property
     def get_x(self):
         """getter of x"""
         return self.__x
@@ -47,7 +44,6 @@ class Rectangle(Base):
         """setter of x"""
         self.__x = x
 
-    @property
     def get_y(self):
         """getter of y"""
         return self.__y
