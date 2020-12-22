@@ -18,7 +18,7 @@ class Student:
         Public method that retrieves a dictionary
         representation of a Student instance
         """
-        if attrs:
+        if attrs is not None:
             for i in self.__dict__.items():
                 for j in i:
                     if j in attrs:
