@@ -98,6 +98,7 @@ class Rectangle(Base):
                 self.y, self.width, self.height))
 
     def update(self, *args):
+        """update args"""
         if args:
             try:
                 self.id = args[0]
