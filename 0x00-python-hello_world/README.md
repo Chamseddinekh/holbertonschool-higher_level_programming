@@ -11,7 +11,7 @@ sudo apt-get install python3-pip
 ```
 - Install Pep8
 ```
-pip3 install pep
+pip3 install pep8
 ```
 
 
