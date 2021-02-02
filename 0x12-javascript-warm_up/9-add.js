@@ -2,10 +2,9 @@
 /*
  *script that prints the addition of 2 integers
  **/
-let a = parseInt(process.argv[2]);
-let b = parseInt(process.argv[3]);
+let a = parseInt (process.argv[2]);
+let b = parseInt (process.argv[3]);
 function add(a, b) {
 console.log(a + b);
 }
 add(a, b);
-  
