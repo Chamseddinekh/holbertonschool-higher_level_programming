@@ -7,7 +7,6 @@ if (!parseInt(process.argv[2])) {
   console.log('Missing number of occurrences');
 } else {
     occ = parseInt(process.argv[2]);
-      for (i = 0; i < occ; i++) {
+      for (i = 0; i < occ; i++)
         console.log('C is fun');
-    }
 }
