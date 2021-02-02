@@ -7,5 +7,4 @@ let Tab = ['C is fun', 'Python is cool', 'Javascript is amazing'];
 let i = 0;
 while (Tab[i] != undefined) {
   console.log(Tab[i]);
-  i++;
-}
+  i++;}
