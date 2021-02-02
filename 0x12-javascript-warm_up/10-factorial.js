@@ -5,7 +5,7 @@
 let a = parseInt(process.argv[2]);
 function Fact(a)
 {
-if (a <= 1 || a === NaN) {
+if (isNaN(a) || a <= 1) {
 return 1;
 } else { 
   return a * Fact( a - 1 );
