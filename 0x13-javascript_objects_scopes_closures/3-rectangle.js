@@ -10,7 +10,7 @@ module.exports = class Rectangle {
 
   // instance method called print() that prints the rectangle
   print () {
-    let i = 0;  
+    let i = 0;
     for (i; i < this.height; i++) {
       console.log('X'.repeat(this.width));
     }
