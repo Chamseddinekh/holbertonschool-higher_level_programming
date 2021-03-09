@@ -11,9 +11,9 @@ module.exports = class Rectangle {
   // instance method called print() that prints the rectangle
   print () {
     let i = 0;
-      for (i; i < this.height; i++) {
-        console.log('X'.repeat(this.width));
-      }
+    for (i; i < this.height; i++) {
+      console.log('X'.repeat(this.width));
+    }
   }
 
   // method called rotate() that exchanges the width and the height of the rectangle
