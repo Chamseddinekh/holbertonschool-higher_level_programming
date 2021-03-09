@@ -1,8 +1,8 @@
 #!/usr/bin/node
-/* empty class */
+// class Rectangle
 module.exports = class Rectangle {
-   constructor (w, h) {
-      this.w = w;
-      this.h = h;
-   }
+  constructor (w, h) {
+    this.w = w;
+    this.h = h;
+  }
 };
